@@ -1,0 +1,28 @@
+{
+  "name": "f2e-proxy",
+  "version": "0.0.1",
+  "description": "proxy demo of f2e-server",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/f2e start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shy2850/f2e-proxy.git"
+  },
+  "keywords": [
+    "f2e",
+    "proxy"
+  ],
+  "author": "shy2850",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shy2850/f2e-proxy/issues"
+  },
+  "homepage": "https://github.com/shy2850/f2e-proxy#readme",
+  "dependencies": {
+    "f2e-server": "^2.3.2",
+    "request": "^2.81.0"
+  }
+}
